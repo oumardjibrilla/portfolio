@@ -429,11 +429,13 @@ progress{
 
 .section-projet{
      margin-bottom: 20px;
+     background-color: red;
     
 }
 .div-projet{
     width: 90%;
     margin: 0 auto;
+    background-color: blue;
 }
 .div-projet h2{
       margin-top: 15px;
@@ -464,7 +466,7 @@ progress{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 10px;
     margin-top: 30px;
     margin-bottom: 100px;
 }
@@ -472,7 +474,7 @@ progress{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 400px;
+    width: 300px;
 
 }
 .contenaire-projet{
