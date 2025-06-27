@@ -874,6 +874,10 @@ footer{
    .div-resaux{
       margin-left: 70px;
    }
+   .home-text h1{
+       font-size: 25px;
+       width: 100%;
+   }
 
    /* la partie pour les apropos */
 
@@ -937,15 +941,31 @@ footer{
    }
 
    .div-form{
-    width: 100%;
-    margin-left: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
    }
    .div-input{
-     width: 100%;
+        width: 100%;
+        margin-left: 0;
    }
    .div-input input , .div-input textarea{
      width: 99%;
    }
+     .form{
+        width: 300px;
+        
+    }
+
+    .div-contact{
+        width: 100%;
+    }
+
+    .contact-text h2{
+        font-size: 19px;
+    } 
 
    /* pour le footer */
     .footer{
@@ -958,4 +978,5 @@ footer{
    .fotter-tire{
     margin-bottom: 50px;
    }
+
   }
