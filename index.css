@@ -908,9 +908,13 @@ footer{
    .section-projet{
         padding: 10px;
         width: 100%;
+        background-color: red;
    }
    .div-projet h2 , .div-projet p{
         text-align: center;
+     }
+     .element-projet{
+        width: 310px;
      }
  .div-projet pre{
     margin-left: 5px;
