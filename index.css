@@ -489,7 +489,7 @@ progress{
     transform: translateY(-1px);
 }
 .image-projet1 {
-    background: url(/image/offre-photo.jpg);
+    background: url(image/offre-photo.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -498,7 +498,7 @@ progress{
     object-fit: cover;
 }
 .image-projet2{
-    background: url(/image/restaurant-photo.JPG);
+    background: url(image/restaurant-photo.JPG);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -507,7 +507,7 @@ progress{
     object-fit: cover;
 }
 .image-projet3{
-    background: url(/image/casque-photo.JPG);
+    background: url(image/casque-photo.JPG);
     width: 100%;
     height: 100%;
     background-size: cover;
