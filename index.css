@@ -4,9 +4,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-    html {
+html{
       scroll-behavior: smooth;
-    }
+      
+}
 :root {
   --color-boutton: rgb(255, 107, 0);
   --arriere-plan: #C850C0;
@@ -237,7 +238,7 @@ nav{
     margin-bottom: 100px;
 }
 .apropos h1{
-    width: 200px;
+    width: 250px;
     margin: 0 auto;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -847,52 +848,114 @@ footer{
     /* pour le home */
    .home-text{
         width: 100%;
+        padding: 10px;
    }
-   .contenaire-skills{
-    width: 100%;
+   header{
+      width: 99%;
    }
-    .langage-skills{
-        width: 100%;
-    }
-   .home-text h1{
-       font-size: 25px;
+   header h2{
+      margin-left: -5px;
+   }
+   .nav-boutton{
+    margin-right: -20px;
+   }
+   .div-card-home{
+      text-align: center;
+      width: 95%;
+   }
+   .home-image{
+        margin-right: 100px;
+        margin-top: 4px;
+   }
+   .home-boutton{
+      text-align: left;
+      margin-left: 5px;
+   }
+   .div-resaux{
+      margin-left: 70px;
+   }
+
+   /* la partie pour les apropos */
+
+   .apropos{
        width: 100%;
+       padding: 10px;
    }
-     
-    /* le code pour les competance  */
-    .langage-skills{
-        width: 100%;
-    }
-    .div-card-home{
-        width: 100%;
-    }
-     .div-projet{
-        width: 100%;
-    }
-    /* le code pour le projet*/
-    .div-projet{
-        width: 100%;
-    }
-    /* pour le contact */
-    .form{
-        width: 300px;
+   .propos-text{
+    margin-top: 6px;
+   }
+
+   /*  la partie pour les skills */
+
+   .section-skills{
+        margin-top: -40px;
+        padding: 10px;
+   }
+   .langage-skills h2{
+      text-align: center;
+   }
+   .langage-skills pre{
+        margin-left: 5px;
+        width: 98%;
     }
 
-    .div-input{
-        margin-left: -10px;
-    }
-    .div-contact{
+    /* le code pour les travaux */
+
+   .section-projet{
+        padding: 10px;
         width: 100%;
-    }
-    .card-contact{
+   }
+   .div-projet h2 , .div-projet p{
+        text-align: center;
+     }
+ .div-projet pre{
+    margin-left: 5px;
+    width: 98%;
+ }
+ /* le code pour les contact */
+   .section-contact{
+        padding: 10px;
         width: 100%;
-        align-items: center;
-        justify-content: center;
+        margin-top: -80px;
+   }
+
+   .div-contact h2{
+       text-align: center;
+   }
+   .div-contact pre{
+    margin-left: 5px;
+    width: 98%;
+   }
+   .card-contact{
+    width: 100%;
+   }
+   .contact-text{
+    width: 100%;
+   }
+   .div-boutton{
+    margin-left: -12px;
+   }
+
+   .div-form{
+    width: 100%;
+    margin-left: 10px;
+   }
+   .div-input{
+     width: 100%;
+   }
+   .div-input input , .div-input textarea{
+     width: 99%;
+   }
+
+   /* pour le footer */
+    .footer{
+       
     }
-    .card-contact{
-        width: 100%;
-    }
-    .contact-text h2{
-        font-size: 19px;
-    }
+   .footer-mail{
+      font-size: 14px;
+      margin-left: -6px;
+   }
+   .fotter-tire{
+    margin-bottom: 50px;
+   }
   }
