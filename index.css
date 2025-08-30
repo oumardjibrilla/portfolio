@@ -18,6 +18,9 @@ html{
   --soft-red: rgb(255, 91, 126 , 0.2);
   --project-blue:#5C57FF;
 }
+body{
+    background-color: whitesmoke;
+}
 
 /* le code pour la section section-home **************************************************************************************/
 
@@ -868,8 +871,7 @@ footer{
         margin-top: 4px;
    }
    .home-boutton{
-      text-align: left;
-      margin-left: 5px;
+      text-align: center;
    }
    .div-resaux{
       margin-left: 70px;
@@ -883,10 +885,17 @@ footer{
 
    .apropos{
        width: 100%;
-       padding: 10px;
+       padding: 0px;
+   }
+   .apropos h1{
+       text-align: center;
    }
    .propos-text{
-    margin-top: 6px;
+      margin-top: 0px;
+      width: 100%;
+   }
+   .personnel-info{
+    margin-top: 10px;
    }
 
    /*  la partie pour les skills */

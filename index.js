@@ -43,5 +43,5 @@ boutton_mail.addEventListener('click', ()=>{
 const voir_cv = document.querySelector('.voir-cv')
 
 voir_cv.addEventListener('click' ,()=>{
-    window.open('image/cv de oumar.pdf' ,'_blank')
+    window.open('cv de oumar.pdf' ,'_blank')
 })
